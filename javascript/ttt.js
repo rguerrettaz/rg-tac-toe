@@ -12,9 +12,9 @@ var Game = {
   }
 
   , checkCellForPlayerPiece: function(){
-    if ($(this).html()) return
     // another global variable
     $cell = $(this)
+    if ($(this).html()) return
     game.runUpdates()
   }
 
