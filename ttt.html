@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe!</title>
+  <link rel="stylesheet" href="stylesheets/ttt.css">
+  <script src="javascript/jquery.js"></script>
+  <script src="javascript/ttt.js"></script>
+</head>
+<body>
+  <div class="board">
+    <div class="row top-row">
+      <div class="cell top-left" data-position = 0></div>
+      <div class="cell top-middle" data-position = 1></div>
+      <div class="cell top-right" data-position = 2></div>
+    </div>
+    <div class="row middle-row">
+      <div class="cell middle-left" data-position = 3></div>
+      <div class="cell middle-middle" data-position = 4></div>
+      <div class="cell middle-right" data-position = 5></div>
+    </div>
+    <div class="row bottom-row">
+      <div class="cell bottom-left" data-position = 6></div>
+      <div class="cell bottom-middle" data-position = 7></div>
+      <div class="cell bottom-right" data-position = 8></div>
+    </div>
+  </div>
+  <div class="current-player">
+    <h1>Current Player</h1>
+    <p class="player-number">1</p>
+  </div>
+  <div class="winner"></div>
+</body>
+</html>
