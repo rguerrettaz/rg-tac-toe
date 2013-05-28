@@ -1,0 +1,21 @@
+If all pieces are used say "Cats game."
+
+Add "undo" button to undo last play
+- will set current player to last player
+- Will clear value of last play
+- Must keep track of the last play made in array or something
+
+Build AI
+- After player 1 makes a move the computer should wait 1 second then make its move.
+-
+- User should never win
+- Computer can win though.
+computer chooses based on most logical place
+-
+
+Most logical places to move???
+
+1. always try for the middle
+2. If middle is taken then take a corner
+3. Anytime there are 2 in a row for the player put piece to block that 2 in a row
+4.
